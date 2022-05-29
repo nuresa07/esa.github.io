@@ -580,3 +580,18 @@ section {
     /* opacity: 0; */
     transition-delay: .3s;
 }
+.container-skill {
+    padding: 7rem 0;
+}
+.row-skill {
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+}
+.box-logo img {
+    height: 55px;
+    width: 55px;
+    margin: 0 10px;
+}
